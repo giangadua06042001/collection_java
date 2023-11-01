@@ -1,9 +1,9 @@
-public class Animal {
-    private int id;
+public  class Animal {
+    private String  id;
     private String name;
     private double weight;
 
-    public Animal(int id, String name, double weight) {
+    public Animal(String id, String name, double weight) {
         this.id = id;
         this.name = name;
         this.weight = weight;
@@ -12,11 +12,11 @@ public class Animal {
     public Animal() {
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
